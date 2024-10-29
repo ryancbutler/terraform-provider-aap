@@ -1,5 +1,7 @@
 # Terraform Provider for Ansible Automation Platform (AAP)
 
+**Forked From https://github.com/ansible/terraform-provider-aap. To be used for 2.5 while RH updates provider officially.**
+
 The AAP Provider allows Terraform to manage AAP resources. It provides a means of executing automation jobs on infrastructure provisioned by Terraform, leveraging the AAP API to manage inventories and launch jobs.
 
 The provider can be found on [the Terraform registry](https://registry.terraform.io/providers/ansible/aap/latest).
