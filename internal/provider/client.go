@@ -32,7 +32,7 @@ type AAPApiEndpointResponse struct {
 }
 
 func readApiEndpoint(client ProviderHTTPClient) (string, diag.Diagnostics) {
-	body, diags := client.Get("/api/")
+	body, diags := client.Get("/api/controller/")
 	if diags.HasError() {
 		return "", diags
 	}
